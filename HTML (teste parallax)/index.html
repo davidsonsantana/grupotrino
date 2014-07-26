@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Nome do projeto</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+		<script>
+		$(function(){
+
+			$('.box').each(function(){
+				var $obj = $(this);
+			 
+				$(window).scroll(function() {
+					var yPos = ($(window).scrollTop() / $obj.data('speed')); 
+			 
+					$obj.animate({
+						top: yPos
+					}, 'fast');
+			 
+				}); 
+			});
+
+		});
+
+	</script>
+
+</head>
+<body>
+
+	<ul>
+		<li>
+			<div class="box red" data-speed="15">&nbsp;</div>
+		</li>
+		<li>
+			<div class="box green" data-speed="15">&nbsp;</div>
+		</li>
+		<li>
+			<div class="box blue" data-speed="15">&nbsp;</div>
+		</li>
+		<li>
+			<div class="box yellow" data-speed="15">&nbsp;</div>
+		</li>
+	</ul>
+
+</body>
+</html>
