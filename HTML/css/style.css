@@ -86,5 +86,19 @@ table {
 }
 /*END - Font Face*/
 
+#container{width: 1260px;margin: 0 auto}
+.logoTrino{float:left;}
+
+.area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 0 40px; padding: 20px;text-align: center;background: red}
+
+
+
+.restrito{width: 365px;float:left;text-decoration: none;}
+.restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
+.restrito span{color: #404041;font-family: 'AntennaRegular';font-size: 14px;margin: 5px 0 0 }
+.restrito span em{color: #bf1e2e;font-family: 'AntennaRegular';}
+.img-acesso{width: 179px;height: 15px; background: url(../img/img-acesso.png) no-repeat;display: block;float: right}
+.form-restrito input{width:105px;border-radius: 10px;padding: 0 10px;color:#bec1bf;}
+.button{width: 83px;height: 26px;background: url(../img/bt-login.jpg) no-repeat;text-indent: -999em;border:0;border-radius: 0px!important;cursor:pointer;}
 
 
