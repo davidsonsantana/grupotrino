@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.no{padding:0 0 0 15px!important;background: none!important}
 /*END Reset*/
 
 
@@ -89,9 +90,7 @@ table {
 #container{width: 1260px;margin: 0 auto}
 .logoTrino{float:left;}
 
-.area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 0 40px; padding: 20px;text-align: center;background: red}
-
-
+.area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding: 20px;text-align: center}
 
 .restrito{width: 365px;float:left;text-decoration: none;}
 .restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
@@ -101,4 +100,7 @@ table {
 .form-restrito input{width:105px;border-radius: 10px;padding: 0 10px;color:#bec1bf;}
 .button{width: 83px;height: 26px;background: url(../img/bt-login.jpg) no-repeat;text-indent: -999em;border:0;border-radius: 0px!important;cursor:pointer;}
 
+.lista{width:750px;height:50px;background: url(../img/ul-repeat.jpg) repeat-x 0 top;float:left;padding-top: 30px;margin: 0 0 0 105px;}
+.lista li a{color:#636363;font-size: 14px;font-family: 'AntennaBold';float:left;padding:0 10px;text-decoration: none;background: url(../img/border-li.jpg) no-repeat right 0;}
 
+.active a{color:#bf1e2e!important;}

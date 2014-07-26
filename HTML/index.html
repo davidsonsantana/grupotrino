@@ -13,8 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/> 
 </head>
 <body>
-	<!--header-->
+	
 <div id="container">
+	<!--header-->
 	<article>
 	  <header>
 	    <h1>
@@ -25,23 +26,39 @@
 	  </header>
 	</article>
 
-<div class="area-restrita">
-	<div class="restrito">
-		<a href="#">Não tem senha? Solicite a sua.</a>
-		<span class="img-acesso">&nbsp;</span>
+	<div class="area-restrita">
+		<div class="restrito">
+			<a href="#">Não tem senha? Solicite a sua.</a>
+			<span class="img-acesso">&nbsp;</span>
+		</div>
+		<div class="form-restrito">
+			<form action="#">
+				<input type="text" placeholder="Login" class="login" />
+				<input type="text" placeholder="Senha" class="senha" />
+				<input type="submit" class="button" />
+			</form>
+		</div>
 	</div>
-	<div class="form-restrito">
-		<form action="#">
-			<input type="text" placeholder="Login" class="login" />
-			<input type="text" placeholder="Senha" class="senha" />
-			<input type="submit" class="button" />
-		</form>
-	</div>
-</div>
+	<ul class="lista">
+		<li class="active"><a href="#">HOME</a></li>
+		<li value=">A TRINO"><a href="#">A TRINO</a></li>
+		<li><a href="#">SERVIÇOS</a></li>
+		<li><a href="#">CLIENTES</a></li>
+		<li><a href="#">OPORTUNIDADES</a></li>
+		<li><a href="#">NOTÍCIAS</a></li>
+		<li><a href="#" class="no">FALE CONOSCO</a></li>
+	</ul>
+
+
+
+
+
+<!--end header-->
 	
 
 	
 </div>
+<!--end container-->
 
 
 
@@ -56,5 +73,6 @@
 
 
 </body>
-<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
 </html>
