@@ -51,7 +51,40 @@ table {
 
 /*START Structure*/
 
-
+/*Font Face*/
+@font-face {
+    font-family: 'AntennaBold';
+    src: url('../fonts/antenna-bold.eot');
+    src: url('../fonts/antenna-bold.eot') format('embedded-opentype'),
+         url('../fonts/antenna-bold.woff') format('woff'),
+         url('../fonts/antenna-bold.ttf') format('truetype'),
+         url('../fonts/antenna-bold.svg#AntennaBold') format('svg');
+}
+@font-face {
+    font-family: 'AntennaLight';
+    src: url('../fonts/antenna-light.eot');
+    src: url('../fonts/antenna-light.eot') format('embedded-opentype'),
+         url('../fonts/antenna-light.woff') format('woff'),
+         url('../fonts/antenna-light.ttf') format('truetype'),
+         url('../fonts/antenna-light.svg#AntennaLight') format('svg');
+}
+@font-face {
+    font-family: 'AntennaRegular';
+    src: url('../fonts/antenna-regular.eot');
+    src: url('../fonts/antenna-regular.eot') format('embedded-opentype'),
+         url('../fonts/antenna-regular.woff') format('woff'),
+         url('../fonts/antenna-regular.ttf') format('truetype'),
+         url('../fonts/antenna-regular.svg#AntennaRegular') format('svg');
+}
+@font-face {
+    font-family: 'AntennaThin';
+    src: url('../fonts/antenna-thin.eot');
+    src: url('../fonts/antenna-thin.eot') format('embedded-opentype'),
+         url('../fonts/antenna-thin.woff') format('woff'),
+         url('../fonts/antenna-thin.ttf') format('truetype'),
+         url('../fonts/antenna-thin.svg#AntennaThin') format('svg');
+}
+/*END - Font Face*/
 
 
 
