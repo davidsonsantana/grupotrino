@@ -16,6 +16,6 @@ function mudaImg(i) {
   document.getElementById("banner_img_2").setAttribute("class", "");
   document.getElementById("banner_img_" + img[indice]).setAttribute("class", "hover");
   
-  document.getElementById("banner_img").innerHTML = "<img src='img/"+ img[indice] +".png' width='894' height='1313' border='0' alt='Banner'>";
+  document.getElementById("banner_img").innerHTML = "<img src='img/"+ img[indice] +".png' width='1230' height='1313' border='0' alt='Banner'>";
  
 }

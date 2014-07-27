@@ -27,6 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	float: left;
 }
 body {
 	line-height: 1;
@@ -88,17 +89,33 @@ table {
 }
 /*END - Font Face*/
 
-#container{width: 1400px;margin: 0 auto;position: relative}
+#container{margin: 0 auto;position: relative}
+
+
+.wrap.home{height: 1062px;background: url(../img/bg-home.png)}
+
+.wrap.servicos{height: 1062px;background: url(../img/bg-servicos.png)}
+.wrap.logistica{height: 1062px;background: url(../img/bg-log.png)}
+.wrap.frio{height: 1062px;background: url(../img/bg-frio.png)}
+.wrap.footer{height: 1062px;background: url(../img/bg-footer.png)}
+
+
 
 /*Divs de cada area da HOME*/
-#div-home{width: 1400px;height: 1062px;background: url(../img/bg-home.png);margin: 0 auto;}
-#div-servicos{width: 1400px;height: 1062px;background: url(../img/bg-servicos.png);margin: 0 auto;}
-#div-logistica{width: 1400px;height: 1062px;background: url(../img/bg-log.png);margin: 0 auto;}
-#div-frio{width: 1400px;height: 1062px;background: url(../img/bg-frio.png);margin: 0 auto;}
-#div-footer{width: 1400px;height: 1062px;background: url(../img/bg-footer.png);margin: 0 auto;}
+#div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;overflow: hidden;}
+#div-servicos{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
+#div-logistica{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
+#div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
+#div-footer{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
+
+;
+
+
+
+
 /*END - Divs de cada area da HOME*/
 /*header*/
-.logoTrino{float:left;margin: 0 0 0 97px;}
+.logoTrino{float:left;}
 .area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding: 20px;text-align: center;background: #fff}
 .restrito{width: 365px;float:left;text-decoration: none;}
 .restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
