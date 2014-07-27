@@ -88,11 +88,17 @@ table {
 /*END - Font Face*/
 
 #container{width: 1260px;margin: 0 auto}
+
+/*Divs de cada area da HOME*/
 #div-home{width: 1260px;height: 1062px;background: url(../img/bg-home.png);}
+#div-servicos{width: 1260px;height: 1062px;background: url(../img/bg-servicos.png);}
+#div-logistica{width: 1260px;height: 1062px;background: url(../img/bg-log.png);}
+#div-frio{width: 1260px;height: 1062px;background: url(../img/bg-frio.png);}
+#div-footer{width: 1260px;height: 1062px;background: url(../img/bg-footer.png);}
+/*END - Divs de cada area da HOME*/
+/*header*/
 .logoTrino{float:left;}
-
 .area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding: 20px;text-align: center;background: #fff}
-
 .restrito{width: 365px;float:left;text-decoration: none;}
 .restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
 .restrito span{color: #404041;font-family: 'AntennaRegular';font-size: 14px;margin: 5px 0 0 }
@@ -100,8 +106,7 @@ table {
 .img-acesso{width: 179px;height: 15px; background: url(../img/img-acesso.png) no-repeat;display: block;float: right}
 .form-restrito input{width:105px;border-radius: 10px;padding: 0 10px;color:#bec1bf;;margin: 0 0 0 18px;}
 .button{width: 83px;height: 26px;background: url(../img/bt-login.jpg) no-repeat;text-indent: -999em;border:0;border-radius: 0px!important;cursor:pointer;}
-
 .lista{width:750px;height:50px;background: url(../img/ul-repeat.jpg) repeat-x 0 top;float:left;padding-top: 30px;margin: 0 0 0 105px;}
 .lista li a{color:#636363;font-size: 14px;font-family: 'AntennaBold';float:left;padding:0 10px;text-decoration: none;background: url(../img/border-li.jpg) no-repeat right 0;}
-
 .active a{color:#bf1e2e!important;}
+/*END - header*/
