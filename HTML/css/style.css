@@ -102,11 +102,11 @@ table {
 
 
 /*Divs de cada area da HOME*/
-#div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;overflow: hidden;}
-#div-servicos{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
-#div-logistica{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
-#div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
-#div-footer{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
+#div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;}
+#div-servicos{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
+#div-logistica{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
+#div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
+#div-footer{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 
 ;
 
