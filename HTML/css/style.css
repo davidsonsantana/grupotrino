@@ -108,9 +108,8 @@ table {
 #div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 #div-footer{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 
-;
 
-
+.linha-banner{width: 1274px;height: 1358px;background: url(../img/banner-border.png) no-repeat 0 0;position: absolute;right:-600px;top:158px;z-index: 999}
 
 
 /*END - Divs de cada area da HOME*/
