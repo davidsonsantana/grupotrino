@@ -96,7 +96,7 @@ table {
 .wrap.home{height: 1062px;background: url(../img/bg-home.png)}
 
 .wrap.servicos{height: 1062px;background: url(../img/bg-servicos.png)}
-.wrap.logistica{height: 1062px;background: url(../img/bg-log.png)}
+.wrap.logistica{height: 1220px;background: url(../img/bg-log.png)}
 .wrap.frio{height: 1062px;background: url(../img/bg-frio.png)}
 .wrap.footer{height: 1062px;background: url(../img/bg-footer.png)}
 
@@ -111,7 +111,9 @@ table {
 #div-footer{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 
 
+.bem-vindo{width: 156px;height: 86px;background: url(../img/bem-vindo.png) no-repeat;margin: 49px 0 0 125px;float: left}
 
+.linha-banner{width: 1274px;height: 1358px;background: url(../img/banner-border.png) no-repeat 0 0;position: absolute;right:-600px;top:158px;z-index: 999}
 
 
 /*END - Divs de cada area da HOME*/
@@ -134,27 +136,39 @@ table {
 
 .formiga span{position: absolute;top: 225px;left:85px;color:#bf1e2e;font-size: 24px;font-family: 'AntennaRegular';}
 
+.serv-text{width: 390px;padding: 100px 0 0;text-align: center;}
+.serv-text p{color:#404041;font-family: 'AntennaRegular';font-size: 12px;letter-spacing: 1px;line-height: 25px;text-align: justify;margin: 20px 0 0; padding: 0 0 0 38px;}
 
 
 
+.arrow-serv{background: url(../img/servico-arrow.png) no-repeat 0 20px;float:left;}
+
+.img-servicos{width: 1250px;display: block;clear: both;overflow: hidden;}
+.servico1{width: 351px;height: 392px;background: url(../img/servico1.png) no-repeat;float: left;margin: 80px 70px 0 260px;}
+.servico2{width: 377px;height: 402px;background: url(../img/servico2.png) no-repeat;float: left;margin: 80px 0 0;}
 
 
 
+.desc-serv{height:91px;clear: both;display: block;background: url(../img/servico-arrow2.png) no-repeat;margin:50px 0 0;text-align: justify;padding: 10px 0 0 119px;font-size: 15;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px;}
 
 
 
+.div-logistica{background: url(../img/log1.png) no-repeat right top;}
 
 
+.arrow-log{background: url(../img/log-arrow.png) no-repeat 0 20px;float:left;}
+
+.log-text{width: 315px;padding: 100px 0 0;}
+.log-text p{color:#404041;font-family: 'AntennaRegular';font-size: 12px;letter-spacing: 1px;line-height: 25px;text-align: justify;margin: 20px 0 0; padding: 0 0 0 38px;}
+
+.img-log{width: 1250px;display: block;clear: both;overflow: hidden;}
+.log1{width: 418px;height: 448px;background: url(../img/log2.png) no-repeat;float: left;margin: 60px 70px 0 0;}
+.log2{width: 351px;height: 390px;background: url(../img/log3.png) no-repeat;float: left;margin: 170px 0 0;}
+
+.desc-log{height:91px;clear: both;display: block;background: url(../img/log-arrow2.png) no-repeat;margin:50px 0 0 160px;text-align: justify;padding: 10px 0 0 119px;font-size: 15;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px;}
 
 
-
-
-
-
-
-
-
-
+.linha-verde{width: 1477px;height: 1277px;background:url("../img/log-border.png") no-repeat scroll -513px -101px rgba(0, 0, 0, 0);position:absolute;}
 
 
 
