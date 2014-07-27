@@ -156,3 +156,146 @@ table {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INTERNAS */
+.wrap.interna{
+    height: 2000px;
+    background: url(../img/bg-home.png);
+}
+
+#div-interna{
+    width: 1260px;
+    height: 2000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#content{
+    width: 689px;
+    position: absolute;
+    left: -3%;
+    top:320px;
+    z-index: 9999;
+    
+}
+
+#content .title{background: url(../img/text-border.png) repeat-x center top;}
+
+#content h2{
+    padding: 22px 0 22px 125px;
+    margin: 0 0 15px;
+    font-family: 'AntennaLight';
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #bf1e2e;
+}
+
+#content.oportunidades h2{background: url(../img/dots-oportunidades.png) no-repeat left 17px;}
+#content.noticias h2{background: url(../img/dots-noticias.png) no-repeat left 17px;}
+
+.text{
+    width: 629px;
+    height: 793px;
+    padding: 30px;
+    background: url(../img/bg-text.png) no-repeat;
+}
+
+.text h3{
+    padding: 12px 0 12px 50px;
+    margin: 0 0 30px;
+    background: url(../img/marker.png) no-repeat left center;
+    font-family: 'AntennaBold';
+    color: #bf1e2e;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.text h3 span{
+    padding: 0 0 5px;
+    color: #646464;
+    text-transform: none;
+    font-family: 'AntennaLight';
+    border-bottom: 1px solid #646464;
+}
+
+.text li{
+    margin: 0 0 23px;
+    line-height: 25px;
+    font-family: 'AntennaLight';
+    font-size: 13px;
+    color: #646464;
+}
+
+.text li span{
+    color: #bf1e2e;
+    text-transform: uppercase;
+}
+
+.text-button{
+    width: 120px;
+    height: 126px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px
+}
+
+.oportunidades .text-button{
+    background: url(../img/scroll-oportunidades.png) no-repeat;
+}
+
+.img-oportunidades{
+    width: 1155px;
+    padding: 2px 0 0 300px;
+    height: 892px;
+    position: absolute;
+    right: -48%;
+    top: 180px;
+    background: url(../img/ul-repeat.jpg) repeat-x 0 top
+}
+
+
+
+
+
+
+
