@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 .no{padding:0 0 0 15px!important;background: none!important}
+.none{display: none!important;}
 /*END Reset*/
 
 
@@ -87,17 +88,17 @@ table {
 }
 /*END - Font Face*/
 
-#container{width: 1260px;margin: 0 auto}
+#container{width: 1400px;margin: 0 auto;position: relative}
 
 /*Divs de cada area da HOME*/
-#div-home{width: 1260px;height: 1062px;background: url(../img/bg-home.png);}
-#div-servicos{width: 1260px;height: 1062px;background: url(../img/bg-servicos.png);}
-#div-logistica{width: 1260px;height: 1062px;background: url(../img/bg-log.png);}
-#div-frio{width: 1260px;height: 1062px;background: url(../img/bg-frio.png);}
-#div-footer{width: 1260px;height: 1062px;background: url(../img/bg-footer.png);}
+#div-home{width: 1400px;height: 1062px;background: url(../img/bg-home.png);margin: 0 auto;}
+#div-servicos{width: 1400px;height: 1062px;background: url(../img/bg-servicos.png);margin: 0 auto;}
+#div-logistica{width: 1400px;height: 1062px;background: url(../img/bg-log.png);margin: 0 auto;}
+#div-frio{width: 1400px;height: 1062px;background: url(../img/bg-frio.png);margin: 0 auto;}
+#div-footer{width: 1400px;height: 1062px;background: url(../img/bg-footer.png);margin: 0 auto;}
 /*END - Divs de cada area da HOME*/
 /*header*/
-.logoTrino{float:left;}
+.logoTrino{float:left;margin: 0 0 0 97px;}
 .area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding: 20px;text-align: center;background: #fff}
 .restrito{width: 365px;float:left;text-decoration: none;}
 .restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
@@ -110,3 +111,30 @@ table {
 .lista li a{color:#636363;font-size: 14px;font-family: 'AntennaBold';float:left;padding:0 10px;text-decoration: none;background: url(../img/border-li.jpg) no-repeat right 0;}
 .active a{color:#bf1e2e!important;}
 /*END - header*/
+
+.formiga{width: 358px;height: 504px;background: url(../img/formiga.png) no-repeat 0 0;display:block;position: relative;top: 500px}
+
+.formiga span{position: absolute;top: 225px;left:85px;color:#bf1e2e;font-size: 24px;font-family: 'AntennaRegular';}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
