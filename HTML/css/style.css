@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-x:hidden;
 }
 ol, ul {
 	list-style: none;
@@ -102,7 +103,7 @@ table {
 
 
 /*Divs de cada area da HOME*/
-#div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;overflow: hidden;}
+#div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;}
 #div-servicos{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
 #div-logistica{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
 #div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;overflow: hidden;}
