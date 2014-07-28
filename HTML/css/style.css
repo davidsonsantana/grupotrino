@@ -96,7 +96,7 @@ table {
 .wrap.home{height: 1062px;background: url(../img/bg-home.png)}
 
 .wrap.servicos{height: 1062px;background: url(../img/bg-servicos.png)}
-.wrap.logistica{height: 1220px;background: url(../img/bg-log.png)}
+.wrap.logistica{height: 1220px;background: url(../img/bg-log.png);position: relative;overflow: hidden;}
 .wrap.frio{height: 1062px;background: url(../img/bg-frio.png)}
 .wrap.footer{height: 1062px;background: url(../img/bg-footer.png)}
 
@@ -153,22 +153,22 @@ table {
 
 
 
-.div-logistica{background: url(../img/log1.png) no-repeat right top;}
+.log-lateral{width:887px;height:720px;background: url(../img/log1.png) no-repeat right top;position: absolute; right: -82px;}
 
 
 .arrow-log{background: url(../img/log-arrow.png) no-repeat 0 20px;float:left;}
 
-.log-text{width: 315px;padding: 100px 0 0;}
+.log-text{width: 315px;position: relative; top: 100px; z-index: 3;}
 .log-text p{color:#404041;font-family: 'AntennaRegular';font-size: 12px;letter-spacing: 1px;line-height: 25px;text-align: justify;margin: 20px 0 0; padding: 0 0 0 38px;}
 
-.img-log{width: 1250px;display: block;clear: both;overflow: hidden;}
-.log1{width: 418px;height: 448px;background: url(../img/log2.png) no-repeat;float: left;margin: 60px 70px 0 0;}
-.log2{width: 351px;height: 390px;background: url(../img/log3.png) no-repeat;float: left;margin: 170px 0 0;}
+.img-log{width: 1250px;display: block;clear: both;overflow: hidden;position: relative;z-index: 9999;}
+.log1{width: 418px;height: 448px;background: url(../img/log2.png) no-repeat;position: absolute; top: 508px; left: 0; z-index: 2;}
+.log2{width: 351px;height: 390px;background: url(../img/log3.png) no-repeat;position: absolute; top: 600px; left: 450px; z-index: 2;}
 
-.desc-log{height:91px;clear: both;display: block;background: url(../img/log-arrow2.png) no-repeat;margin:50px 0 0 160px;text-align: justify;padding: 10px 0 0 119px;font-size: 15;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px;}
+.desc-log{width:950px;clear: both;display: block;background: url(../img/log-arrow2.png) no-repeat;text-align: justify;padding: 10px 0 10px 119px;font-size: 15px;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px; position: relative; top: 700px; right: 0; color:#324e6d;}
 
 
-.linha-verde{width: 1477px;height: 1277px;background:url("../img/log-border.png") no-repeat scroll -513px -101px rgba(0, 0, 0, 0);position:absolute;}
+.linha-verde{width: 1477px;height: 1277px;background:url("../img/log-border.png") no-repeat -278px -215px;position:absolute;top:0;left:50%;margin:0 0 0 -738px;z-index:2;}
 
 
 
