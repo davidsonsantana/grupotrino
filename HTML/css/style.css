@@ -148,9 +148,6 @@ em{text-decoration: none}
 .desc-log{width:950px;clear: both;display: block;background: url(../img/log-arrow2.png) no-repeat;text-align: justify;padding: 10px 0 10px 119px;font-size: 15px;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px; position: absolute; bottom: -80px; right: 0; color:#324e6d; z-index: 3;}
 .linha-verde{width: 1477px;height: 1277px;background:url("../img/log-border.png") no-repeat -278px -215px;position:absolute;top:0;left:50%;margin:0 0 0 -738px;z-index:2;}
 
-
-
-
 .serv-frio{width: 390px;padding: 100px 0 0;text-align: center;}
 .frio-text{text-align: center;padding: 50px 0 0;}
 .frio-text p{color: #404041;font-family: 'AntennaRegular';font-size: 15px;letter-spacing: 1px;line-height: 25px;margin: 20px 0 0;padding: 10px 0 32px 115px;text-align: center;}
@@ -161,20 +158,15 @@ em{text-decoration: none}
 .frio2{width: 401px;height: 376px;background: url(../img/frio2.png) no-repeat;float: left;margin: 80px 60px 0 0;}
 .frio3{width: 356px;height: 400px;background: url(../img/frio3.png) no-repeat;float: left;margin: 80px 0 0;}
 
-
-
 .colA{width: 600px;float:left;}
 .colB{width: 600px;float:left;}
-
 
 .text-footer{background: url(../img/footer-arrow.png) no-repeat;margin: 50px 0;text-align:justify;padding: 0 0 0 60px;color:#858185;font-size: 15px; font-family: 'AntennaLight';letter-spacing: 1px;line-height: 25px;}
 .arrows{width: 599px;height: 775px;background: url(../img/img-map.png) no-repeat;display:block;}
 
-
-
 .tit{font-family: 'AntennaBold';font-size: 13px;color:#545a5c;border-bottom: 1px solid #ac2929;padding: 0 0 10px;margin: 20px 0 10px;}
-.lugares{font-family: 'AntennaLight';;font-size:13px;text-align: justify;letter-spacing: 1px;line-height: 15px}
-.red{color: #bf1e2e}
+.lugares{font-family: 'AntennaLight';font-size:13px;text-align: justify;letter-spacing: 1px;line-height: 15px}
+.red{color: #bf1e2e;font-family: 'AntennaBold';}
 
 
 
