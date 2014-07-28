@@ -208,13 +208,12 @@ em{text-decoration: none}
 
 /* INTERNAS */
 .wrap.interna{
-    height: 2000px;
     background: url(../img/bg-home.png);
 }
 
 #div-interna{
     width: 1260px;
-    height: 2000px;
+    height: 1700px;
     margin: 0 auto;
     position: relative;
 }
@@ -225,7 +224,6 @@ em{text-decoration: none}
     left: -3%;
     top:320px;
     z-index: 9999;
-    
 }
 
 #content .title{background: url(../img/text-border.png) repeat-x center top;}
@@ -236,11 +234,12 @@ em{text-decoration: none}
     font-family: 'AntennaLight';
     font-size: 25px;
     text-transform: uppercase;
-    color: #bf1e2e;
+    color: #646464;
 }
 
-#content.oportunidades h2{background: url(../img/dots-oportunidades.png) no-repeat left 17px;}
+#content.oportunidades h2{background: url(../img/dots-oportunidades.png) no-repeat left 17px;color: #bf1e2e;}
 #content.noticias h2{background: url(../img/dots-noticias.png) no-repeat left 17px;}
+#content.contato h2{background: url(../img/dots-contato.png) no-repeat left 17px;}
 
 .text{
     width: 629px;
@@ -250,7 +249,7 @@ em{text-decoration: none}
 }
 
 .text h3{
-    padding: 12px 0 12px 50px;
+    padding: 18px 0 18px 50px;
     margin: 0 0 30px;
     background: url(../img/marker.png) no-repeat left center;
     font-family: 'AntennaBold';
@@ -275,6 +274,11 @@ em{text-decoration: none}
     color: #646464;
 }
 
+.text li a{
+    text-decoration: none;
+    color: #646464;
+}
+
 .text li span{
     color: #bf1e2e;
     text-transform: uppercase;
@@ -292,15 +296,141 @@ em{text-decoration: none}
     background: url(../img/scroll-oportunidades.png) no-repeat;
 }
 
+.noticias .text-button{
+    background: url(../img/scroll-noticias.png) no-repeat;
+}
+
 .img-oportunidades{
     width: 1155px;
-    padding: 2px 0 0 300px;
+    padding: 2px 0 0 275px;
     height: 892px;
     position: absolute;
     right: -48%;
     top: 180px;
     background: url(../img/ul-repeat.jpg) repeat-x 0 top
 }
+
+.img-lateral{
+    width: 672px;
+    padding: 2px 0 0 238px;
+    height: 900px;
+    position: absolute;
+    right: -85px;
+    top: 180px;
+    background: url(../img/ul-repeat.jpg) repeat-x right top;
+    text-align: right;
+}
+
+
+.contato form p{
+    margin: 0 0 20px;
+    color: #31475f;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'AntennaLight';
+}
+
+.contato form input{
+    width: 90%;
+    margin: 0 0 12px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:inset 0px 2px 6px #aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: #f2f2f2;
+}
+
+.contato form textarea{
+    width: 90%;
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    box-shadow:inset 0px 2px 6px #aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: #f2f2f2;
+}
+
+.contato form input.submit{
+    width: auto;
+    padding: 10px 30px;
+    margin: 20px 40px 0 0;
+    float: right;
+    background: #31475f;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+.textos{
+    width: 600px;
+    margin: 0 0 40px;
+    font-family: 'AntennaLight';
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.textos.sobre{
+    width: 580px;
+    padding: 0 0 0 70px;
+    font-size: 13px;
+    color: #5f2a2f;
+    line-height: 25px;
+    background: url(../img/sobre-arrow.png) no-repeat left top;
+
+}
+
+.textos p{
+    padding: 5px 0 5px 180px;
+}
+
+.textos.missao h2{
+    background: url(../img/dots-sobre1.png) no-repeat left center!important;
+}
+.textos.missao p{
+    background: url(../img/sobre001.png) no-repeat 120px 0px;
+    color: #5e5e70;
+}
+
+
+.textos.visao h2{
+    background: url(../img/dots-sobre2.png) no-repeat left center!important;
+}
+
+.textos.visao p{
+    background: url(../img/sobre002.png) no-repeat 120px 0px;
+    color: #3c545b;   
+}
+
+
+.textos.valores{
+    width: 800px;
+}
+
+.textos.valores h2{
+    background: url(../img/dots-sobre3.png) no-repeat left center!important;
+}
+
+.textos.valores p{
+    background: url(../img/sobre003.png) no-repeat 120px 0px;
+    color: #494f41;
+}
+
+.textos.valores strong{
+    font-family: 'AntennaBold';
+}
+
+
+/* fim INTERNAS */
+
 
 
 
