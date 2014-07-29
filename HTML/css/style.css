@@ -95,16 +95,13 @@ em{text-decoration: none}
 
 
 .wrap.home{height: 1062px;background: url(../img/bg-home.png)}
-
 .wrap.servicos{height: 1062px;background: url(../img/bg-servicos.png)}
 .wrap.logistica{height: 1220px;background: url(../img/bg-log.png);position: relative;overflow: hidden;}
-
 .wrap.frio{height: 900px;background: url(../img/bg-frio.png)}
 .wrap.footer{height: 1150px;background: url(../img/bg-footer.png)}
 
 /*Divs de cada area da HOME*/
 #div-home{width: 1260px;height: 1485px;;margin: 0 auto;position: relative;}
-
 #div-servicos{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 #div-logistica{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
 #div-frio{width: 1260px;height: 1062px;margin: 0 auto;position: relative;}
@@ -149,8 +146,6 @@ em{text-decoration: none}
 .desc-log{width:950px;clear: both;display: block;background: url(../img/log-arrow2.png) no-repeat;text-align: justify;padding: 10px 0 10px 119px;font-size: 15px;color: #955a14;font-family: 'AntennaLight'; letter-spacing: 1px;line-height: 25px; position: absolute; bottom: -80px; right: 0; color:#324e6d; z-index: 3;}
 .linha-verde{width: 1477px;height: 1277px;background:url("../img/log-border.png") no-repeat -278px -215px;position:absolute;top:0;left:50%;margin:0 0 0 -738px;z-index:2;}
 
-
-
 .serv-frio{width: 390px;padding: 100px 0 0;text-align: center;}
 .frio-text{text-align: center;padding: 50px 0 0;}
 .frio-text p{color: #404041;font-family: 'AntennaRegular';font-size: 15px;letter-spacing: 1px;line-height: 25px;margin: 20px 0 0;padding: 10px 0 32px 115px;text-align: center;}
@@ -165,31 +160,14 @@ em{text-decoration: none}
 .colB{width: 600px;float:left;}
 
 .text-footer{background: url(../img/footer-arrow.png) no-repeat;margin: 50px 0;text-align:justify;padding: 0 0 0 60px;color:#858185;font-size: 15px; font-family: 'AntennaLight';letter-spacing: 1px;line-height: 25px;}
-.arrows{width: 599px;height: 775px;background: url(../img/img-map.png) no-repeat;display:block;}
-
+.arrows{width: 599px;height: 780px;background: url(../img/img-map.png) no-repeat;display:block;}
 .tit{font-family: 'AntennaBold';font-size: 13px;color:#545a5c;border-bottom: 1px solid #ac2929;padding: 0 0 10px;margin: 20px 0 10px;}
 .lugares{font-family: 'AntennaLight';font-size:13px;text-align: justify;letter-spacing: 1px;line-height: 15px}
 .red{color: #bf1e2e;font-family: 'AntennaBold';}
-
-
-.text-footer{background: url(../img/footer-arrow.png) no-repeat;margin: 50px 0;text-align:justify;padding: 0 0 0 60px;color:#858185;font-size: 15px; font-family: 'AntennaLight';letter-spacing: 1px;line-height: 25px;}
-.arrows{width: 599px;height: 775px;background: url(../img/img-map.png) no-repeat;display:block;}
-
-.tit{font-family: 'AntennaBold';font-size: 13px;color:#545a5c;border-bottom: 1px solid #ac2929;padding: 0 0 10px;margin: 20px 0 10px;}
-.lugares{font-family: 'AntennaLight';font-size:13px;text-align: justify;letter-spacing: 1px;line-height: 15px}
-.red{color: #bf1e2e;font-family: 'AntennaBold';}
-
-
-
-
-
-
-
-
-
-
-
-
+.colB{margin: 0 0 0 40px;height:1080px;float: left;background: url(../img/clients-border.png) no-repeat;}
+.colB h4{padding: 6px 0 6px 117px; margin: 190px 0 0 160px;background: url(../img/dots-sobre1.png) no-repeat;display: block;color: #bf1e2e;font-size: 24px;font-family: 'AntennaLight';}
+.clients{width: 566px;height: 415px;background: url(../img/clientes.png) no-repeat;display: block;margin: 60px 0 0 90px;}          
+.text-clientes{background: url(../img/clients-arrow.png) no-repeat;margin: 50px 0 0 130px;text-align:justify;padding: 0 0 0 60px;color:#858185;font-size: 15px; font-family: 'AntennaLight';letter-spacing: 1px;line-height: 25px;}
 
 
 
