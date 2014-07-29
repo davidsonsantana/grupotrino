@@ -112,14 +112,14 @@ em{text-decoration: none}
 /*END - Divs de cada area da HOME*/
 /*header*/
 .logoTrino{float:left;}
-.area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding: 20px;text-align: center;background: #fff}
-.restrito{width: 365px;float:left;text-decoration: none;}
-.restrito a{font-family: 'AntennaLight';font-size: 10px;color:#636363;position: relative;top: 3px;}
+.area-restrita{width: 795px;border-radius: 0 0 10px 10px;float: left; margin: 0 0 15px 40px; padding:40px 20px 20px;text-align: center;background: #fff}
+.restrito{width: 365px;margin:2px 0 0;float:left;text-decoration: none;}
+.restrito a{font-family: 'AntennaLight';font-size: 11px;color:#636363;position: relative;top: 3px;}
 .restrito span{color: #404041;font-family: 'AntennaRegular';font-size: 14px;margin: 5px 0 0 }
 .restrito span em{color: #bf1e2e;font-family: 'AntennaRegular';}
 .img-acesso{width: 179px;height: 15px; background: url(../img/img-acesso.png) no-repeat;display: block;float: right}
-.form-restrito input{width:105px;border-radius: 10px;padding: 0 10px;color:#bec1bf;;margin: 0 0 0 18px;}
-.button{width: 83px;height: 26px;background: url(../img/bt-login.jpg) no-repeat;text-indent: -999em;border:0;border-radius: 0px!important;cursor:pointer;}
+.form-restrito input{width:121px;border-radius: 50px;padding:6px 12px 3px;color:#bec1bf;;margin: 0 0 0 10px; font-size:15px;font-family: 'AntennaLight';border:1px solid #ddd;box-shadow:inset 1px 1px 2px #aaa;}
+.form-restrito .button{width:83px;height:26px;padding:0;background: url(../img/bt-login.jpg) no-repeat;text-indent: -999em;border:0;border-radius: 0px;cursor:pointer;border:none; box-shadow:none;}
 .lista{width:750px;height:50px;background: url(../img/ul-repeat.jpg) repeat-x 0 top;float:left;padding-top: 30px;margin: 0 0 0 105px;}
 .lista li a{color:#636363;font-size: 14px;font-family: 'AntennaBold';float:left;padding:0 10px;text-decoration: none;background: url(../img/border-li.jpg) no-repeat right 0;}
 .active a{color:#bf1e2e!important;}
@@ -246,6 +246,10 @@ em{text-decoration: none}
     text-transform: none;
     font-family: 'AntennaLight';
     border-bottom: 1px solid #646464;
+}
+
+.text ul{
+    padding: 0 20px 0 0;
 }
 
 .text li{
@@ -416,7 +420,7 @@ em{text-decoration: none}
 
 /* plugin iScroll */
 #wrapper {
-    width: 628px;
+    width: 638px;
     height: 585px;
     position: absolute;
     z-index: 1;
@@ -445,6 +449,15 @@ em{text-decoration: none}
     -ms-text-size-adjust: none;
     -o-text-size-adjust: none;
     text-size-adjust: none;
+}
+
+.iScrollVerticalScrollbar{
+    border: 1px solid #e5e3e3;
+    border-radius: 10px;
+}
+
+.iScrollIndicator{
+    background: #e5e3e3;
 }
 
 /* fim iScroll */

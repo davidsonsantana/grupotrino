@@ -120,13 +120,19 @@
 
 <script type="text/javascript">
 
-	var myScroll;
+var myScroll;
 
-	function loaded () {
-		myScroll = new IScroll('#wrapper', { mouseWheel: true, scrollbars: true });
-	}
+function loaded () {
+	myScroll = new IScroll('#wrapper', {
+		scrollbars: true,
+		mouseWheel: true,
+		interactiveScrollbars: true,
+		shrinkScrollbars: 'scale',
+		fadeScrollbars: true
+	});
+}
 
-	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
 </script>
 
