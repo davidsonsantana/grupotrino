@@ -12,10 +12,13 @@ $(document).ready(function(){
 	}
 	//quem tiver # no href, tem animação.
 	$(function(){
-	        $('a[href^=#]').click(function(){
-	                $($(this).attr('href')).ancora();
-	                return false;
-	        })
+	    $('a[href^=#]').click(function(){
+	            $($(this).attr('href')).ancora();
+	            return false;
+	    })
 	});
+
+
+	
 
 });
