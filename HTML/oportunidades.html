@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/banner.css" media="screen"/> 
 </head>
-<body>
+<body onload="loaded()">
 	
 <div id="container">
 	<div class="wrap interna">
@@ -86,7 +86,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="text-button">&nbsp;</div>
+				<!-- <div class="text-button">&nbsp;</div> -->
 			</div>
 		</div>
 
@@ -117,5 +117,19 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/util.js"></script>
 <script type="text/javascript" src="js/iscroll.js"></script>
+
+<script type="text/javascript">
+
+	var myScroll;
+
+	function loaded () {
+		myScroll = new IScroll('#wrapper', { mouseWheel: true, scrollbars: true });
+	}
+
+	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+</script>
+
+
 
 </html>
