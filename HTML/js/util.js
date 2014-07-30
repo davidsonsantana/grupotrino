@@ -82,26 +82,14 @@ $(document).ready(function(){
 	});
 
 
-
-function carai(){
-	alert('deu certo')
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+//	$(window).scroll(function(){
+//	    if  ($(window).scrollTop() > 2280){
+//	    	//console.log('isso é o if')
+//	       $('.linha-verde').stop(true, true).slideDown("slow");
+//	    } else  {
+//	    	//console.log('isso é o else')
+//	        $('.linha-verde').stop(true, true).slideUp("slow");
+//	    }
+//	});
 
 });
