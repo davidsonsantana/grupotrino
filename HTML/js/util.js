@@ -30,7 +30,8 @@ $(document).ready(function(){
 	         $('.topo-inteiro.pequeno').css({
 	         	'position' : 'fixed',
 	         	'z-index' : '9999',
-	         	'margin' : '0 0 0 78px'
+	         	'margin' : '0 0 0 78px',
+	         	'width' : '1135px'
 	         });
 	          $('.topo-inteiro.pequeno .area-restrita').css({
 	         	'padding' : '13px 20px 14px'
@@ -82,7 +83,9 @@ $(document).ready(function(){
 
 
 
-
+function carai(){
+	alert('deu certo')
+}
 
 
 
