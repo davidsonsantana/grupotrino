@@ -92,4 +92,37 @@ $(document).ready(function(){
 //	    }
 //	});
 
+
+
+var prim        = null;
+var segu        = null;
+ 
+$(document).ready(function(){
+    prim = $(window).scrollTop();
+    $(window).scroll(function () {
+        segu = $(window).scrollTop();
+        if (prim < segu) {
+            //alert ("foi para baixo");
+
+            $('.topo-inteiro.pequeno').css('opacity' , '1');
+	      setTimeout(function() {
+      		$('.topo-inteiro.pequeno').css('opacity' , '0.5');
+			}, 2000);
+			
+	      
+        prim = $(window).scrollTop();
+        } else {
+        //alert ("foi para cima");
+        $('.topo-inteiro.pequeno').css('opacity' , '1');
+	      setTimeout(function() {
+      		$('.topo-inteiro.pequeno').css('opacity' , '0.5');
+			}, 2000);
+
+        prim = $(window).scrollTop();
+        }
+    });
+});
+
+
+
 });

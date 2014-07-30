@@ -239,6 +239,8 @@ em{text-decoration: none}
     top: 446px;
     width: 45px;
 }
+
+.topo-inteiro.pequeno:hover{opacity: 1!important}
 /*END Structure HOME*/
 
 
