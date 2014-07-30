@@ -23,8 +23,8 @@ $(document).ready(function(){
 
 	//quando descer 200px no scroll, mostrar menu pequeno e apagar menu grande
 	$(window).scroll(function(){
-	    if  ($(window).scrollTop() > 200){
-	    	console.log('isso é o if')
+	    if  ($(window).scrollTop() > 150){
+	    	//console.log('isso é o if')
 	        $('.topo-inteiro').hide();
 	        $('.topo-inteiro.pequeno').show();
 	         $('.topo-inteiro.pequeno').css({
@@ -35,8 +35,19 @@ $(document).ready(function(){
 	          $('.topo-inteiro.pequeno .area-restrita').css({
 	         	'padding' : '13px 20px 14px'
 	         });
+	           $('.lista.pequeno').css({
+	         	'background' : 'url("../img/ul-repeat.jpg") repeat-x scroll 0 top #fff',
+			    'border-radius' : '10px',
+			    'float' : 'left',
+			    'height' : '30px',
+			    'margin' : '0 0 0 105px',
+			    'padding-top' : '18px',
+			    'width' : '750px'
+	         });
+
+		        
 	    } else  {
-	    	console.log('isso é o else')
+	    	//console.log('isso é o else')
 	       $('.topo-inteiro').show();
 	       $('.topo-inteiro.pequeno').hide();
 
@@ -48,24 +59,24 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 	    if  ($(window).scrollTop() > 4202){
 	    	//console.log('isso é o if')
-	        $('.pin-1').delay(10).fadeIn('1000');
-	        $('.pin-2').delay(15).fadeIn('1000');
-	        $('.pin-3').delay(20).fadeIn('1000');
-	        $('.pin-4').delay(25).fadeIn('1000');
-	        $('.pin-5').delay(30).fadeIn('1000');
-	        $('.pin-6').delay(35).fadeIn('1000');
-	        $('.pin-7').delay(40).fadeIn('1000');
-	        $('.pin-8').delay(45).fadeIn('1000');
+	        $('.pin-1').stop(true, true).delay(100).fadeIn('2000');
+	        $('.pin-2').stop(true, true).delay(150).fadeIn('2000');
+	        $('.pin-3').stop(true, true).delay(200).fadeIn('2000');
+	        $('.pin-4').stop(true, true).delay(250).fadeIn('2000');
+	        $('.pin-5').stop(true, true).delay(300).fadeIn('2000');
+	        $('.pin-6').stop(true, true).delay(350).fadeIn('2000');
+	        $('.pin-7').stop(true, true).delay(400).fadeIn('2000');
+	        $('.pin-8').stop(true, true).delay(450).fadeIn('2000');
 	    } else  {
 	    	//console.log('isso é o else')
-	        $('.pin-1').delay(10).fadeOut('1000');
-	        $('.pin-2').delay(15).fadeOut('1000');
-	        $('.pin-3').delay(20).fadeOut('1000');
-	        $('.pin-4').delay(25).fadeOut('1000');
-	        $('.pin-5').delay(30).fadeOut('1000');
-	        $('.pin-6').delay(35).fadeOut('1000');
-	        $('.pin-7').delay(40).fadeOut('1000');
-	        $('.pin-8').delay(45).fadeOut('1000');
+	        $('.pin-1').stop(true, true).delay(100).fadeOut('2000');
+	        $('.pin-2').stop(true, true).delay(150).fadeOut('2000');
+	        $('.pin-3').stop(true, true).delay(200).fadeOut('2000');
+	        $('.pin-4').stop(true, true).delay(250).fadeOut('2000');
+	        $('.pin-5').stop(true, true).delay(300).fadeOut('2000');
+	        $('.pin-6').stop(true, true).delay(350).fadeOut('2000');
+	        $('.pin-7').stop(true, true).delay(400).fadeOut('2000');
+	        $('.pin-8').stop(true, true).delay(450).fadeOut('2000');
 	    }
 	});
 
